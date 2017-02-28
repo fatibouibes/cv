@@ -6,6 +6,11 @@
       <link rel="stylesheet" href="style.css"/>
             <title> CV bouibes</title>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script language="javascript" type="text/javascript">
+  function afficher(id) {
+  $(id).toggle();
+  }
+            </script>
      </head>
       <body background-color="Bleu">
       <div class="container">
@@ -24,7 +29,7 @@
                        </div>
                </div>
                <div class = "section row">
-                  <h2>Formation</h2>
+                  <h2>Formation <button style="font-size: 50%;" onclick="afficher('formation');">cacher</button></h2>
                      <div id="formation">
                         <div class ="col-xs-2">
                           <p><strong>2016-Auj    :</strong></p>
@@ -53,7 +58,7 @@
                      </div>       
                </div>
                <div class = "row">
-                  <h2>Expérience professionneles</h2>
+                  <h2>Expérience professionneles<button style="font-size: 50%;" onclick="afficher('Expérience professionneles');">cacher</button></h2>
                      <div id="Expérience professionneles">
                        <div class ="col-lg-2">
                           <p><strong>2016 :<span class ="duree">6 Mois</span><br/>
@@ -88,7 +93,7 @@
                      </div>
                </div>
               <div class = "row" >
-                  <h2>Langue</h2>
+                  <h2>Langue <button style="font-size: 50%;" onclick="afficher('Langue');">cacher</button></h2>
                     <div id="Langue">
                   
                         <div class ="col-xs-2">
@@ -112,7 +117,7 @@
                           </div>
                </div>
                 <div class = "section rows" >
-                  <h2> competences informatiques</h2>
+                  <h2> competences informatiques <button style="font-size: 50%;" onclick="afficher('cometences informatiques');">cacher</button></h2>
                       <div id="cometences informatiques">
                   <div class="row">
                         <div class ="col-xs-2">
@@ -158,7 +163,7 @@
                </div>
                
                <div class = "section row">
-                  <h2>Centre d'interet</h2>
+                  <h2>Centre d'interet  <button style="font-size: 50%;" onclick="afficher('Centre d'interet');">cacher</button></h2>
                      <div id="Centre d'interet">
                   <div class = " row">
                         <div class ="col-xs-2">
