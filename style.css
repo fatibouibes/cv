@@ -57,3 +57,6 @@ h2{
 	text-transform: uppercase;
 	border-bottom: 3px solid #F70505;
 }
+.col-xs-10{
+	font-size: 14px;
+}
